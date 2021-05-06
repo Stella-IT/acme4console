@@ -1,0 +1,10 @@
+[package]
+name = "acme4console"
+version = "0.0.1"
+authors = ["alex4386 <alex4386@stella-it.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+muroba = { git = "https://github.com/kiwiyou/muroba", branch = "main" }
