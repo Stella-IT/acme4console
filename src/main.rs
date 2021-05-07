@@ -8,6 +8,7 @@ use surf;
 
 pub const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 pub const MEILING_HOST: &'static str = "https://meiling.stella-api.dev";
+pub const CLIENT_ID: &'static str = "";
 
 #[derive(Serialize, Deserialize)]
 struct MyConfig {
