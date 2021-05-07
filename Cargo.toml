@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 muroba = { git = "https://github.com/kiwiyou/muroba", branch = "main" }
+crossterm = { version = "0.17", features = ["event-stream"] }
+confy = "0.4.0"
+serde = { version = "1.0", features = ["derive"] }
+surf = "2.2.0"
